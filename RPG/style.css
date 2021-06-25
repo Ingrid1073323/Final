@@ -1,0 +1,29 @@
+body{
+    text-align: center;
+    background-color:rgb(243, 138, 10);
+}
+
+h1{
+    font-family:Microsoft JhengHei;
+    background-color: black;
+    color:gray;
+    font-size: 70px;
+}
+canvas{
+    border: 10px solid white ;
+    background-size: cover;
+    background-image: url(images/court.jpg);/*grasses68.gif);*/
+}
+#talkBox{
+    height: 20px;
+    color: whitesmoke;
+    font-size: 26px;
+    font-weight: bold;
+}
+#timer{
+    color:white;
+    font-size: 80px;
+}
+#player{
+    border: 10px solid white ;
+}

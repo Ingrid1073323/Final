@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+       
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>排球少年經典收藏</h1>
+        <div id = "leftArea"><h2></h2></div>
+        <div id = "player"></div>
+        <input id = "playButton" type = "button" value = "Play" >
+        <input id = "nextButton" type = "button" value = "Next" >
+        <div id = "add">
+            <p id ="p1">請複製youtube影片分享連結</p>
+            <input id="new" type = "text" >
+            <p id ="p2">請輸入影片開始秒數</p>
+            <input id="start" type ="number" value = 0>
+            <p id ="p3">請輸入影片結束秒數</p>
+            <input id="end" type="number" value = 10> 
+            <p id ="p4">請幫檔案取名</p>
+            <input id="title" type="text"> 
+            <p id ="p5">請選擇將影片加入<br>哪個播放清單</p>
+            <select id = "school">
+                <option value = 0 selected >烏野高中</option>
+                <option value = 1>青葉城西高中</option>
+                <option value = 2>白鳥澤學園</option>
+            </select>
+            <button id="enter">Enter</button>
+        </div>
+        <div id = "rightArea">
+            <select id = "list">
+                <option value = 0 selected >烏野高中</option>
+                <option value = 1>青葉城西高中</option>
+                <option value = 2>白鳥澤學園</option>
+            </select>
+            <textarea id ="name" readonly></textarea>
+        </div>
+    
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://www.youtube.com/iframe_api"></script>
+        <script src = "playlist.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>

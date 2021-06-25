@@ -1,0 +1,6 @@
+{
+    //提示訊息
+    "typeAcquisition":{
+        "include":["jquery"]
+    }
+}

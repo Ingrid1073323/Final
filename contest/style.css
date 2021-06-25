@@ -1,0 +1,15 @@
+body{
+    text-align: center;
+    margin-top: 70px;
+}
+h1{
+    
+    color:azure;/*字体颜色黑色*/
+}
+h2{
+    
+    color:white;/*字体颜色黑色*/
+}
+#options{
+    color:white;
+}
